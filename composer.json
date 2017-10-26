@@ -1,0 +1,24 @@
+{
+    "name": "clif/twig_debug-plugin",
+    "type": "streams-addon",
+    "keywords": [
+            "streams plugin",
+            "streams addon",
+            "plugin"
+        ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Falleiro",
+            "role": "Owner"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "adrianfalleiro\\TwigDebugPlugin\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/var-dumper": "3.1.*",
+    }
+}
